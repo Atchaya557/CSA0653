@@ -1,5 +1,6 @@
 # Atchaya Vharsne S (192524185)
 # Time Complexity : O(n^3)
+# Space Complexity : O(n^2)
 def kruskals(graph):
     n = len(graph)
     parent = list(range(n))
