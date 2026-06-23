@@ -1,4 +1,4 @@
-#ATchaya Vharsne S
+#ATchaya Vharsne S (192524185)
 investments = [20000, 30000, 40000, 50000]
 profits = [25000, 40000, 50000, 55000]
 products = ['A', 'B', 'C', 'D']
