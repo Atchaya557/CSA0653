@@ -1,4 +1,5 @@
 # Atchaya Vharsne S (192524185)
+# Time Complexity : O(n^3)
 def prims(graph):
   n=len(graph)
   visited=[False]*n
