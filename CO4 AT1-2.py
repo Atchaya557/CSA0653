@@ -19,6 +19,6 @@ def kruskals(graph):
         if find(u) != find(v):
             parent[find(u)] = find(v)
             cost += weight
-    return total_cost
+    return cost
 graph = [[0, 2, 3, 0],[2, 0, 1, 4], [3, 1, 0, 5],[0, 4, 5, 0]]
 print("Total Minimum Cost:", kruskals(graph))
